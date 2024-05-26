@@ -1,0 +1,71 @@
+1. feladat:
+A vonat hosszát x-el jelöltem.
+Az első mondatból felírhattam ezt az egyenletet: v = (300 + x) / 20, A másodikból pedig: v = x / 5.
+Ezek alapján felírtam hogy (300 + x) / 20 = x / 5, ebből kijött hogy a vonat 100 méter hosszú.
+
+2. feladat:
+A 8cm oldalú kocka egyik lapjára ráragasztottam a 6cm-eset. A másik kettő 2cm-es kockát pedig külön-külön oldalra helyeztem, a keletkezett testre.
+Így mind a kettő 2cm-es és a 6cm-es kocka is levágódik a 8cm-es kockáról.
+Tehát a legnagyobb elérhető térfogat: 512cm^3 (8cm * 8cm * 8cm)
+
+3.feladat:
+Két távolságra bontottam a menetidejüket: x, 20-x
+A gyaloglás/biciklizés sebességével felírhatjuk kettejük összidejét.
+Jancsi: (x / 5) + (12 * ( 20 - x)) = t
+Juliska: (x / 10) + (4 * (20 - x)) = t
+Mivel ennek a kettőnek egyenlőnek kell lennie, felírhatunk egy elsőfokú egyenletet
+(x / 5) + (12 * ( 20 - x)) = (x / 10) + (4 * (20 - x))
+...
+x = 12,5
+Tehát Juliskának 12,5 km-t kell bicikliznie, hogy egyszerre érjenek a mézeskalácshoz
+
+4.feladat
+A köregyenlet segítségével oldottam meg a feladatot: x^2 + y^2 = r^2 (r a sugár)
+x^2 + y^2 = 25 (5 ^ 2)
+Probálgatás után rájöttem, hogy csak kettő olyan pozitív egész szám van, aminek négyzetösszege 25.
+Ez a 3 és a 4
+Ezeknek felírjuk az összes kombinációját, amiből 8 van: (3,4), (4,3), (-3,4), (-4,3), (-3,-4), (-4,-3), (4,-3), (3,-4)
+Ehhez hozzáadjuk az abszcisszán, meg az ordinátán lévő pontokat, amiből négy van: (5,0), (0,5), (-5,0), (0-5)
+Összesen 8 + 4 azaz 12 rácspont esik a körvonalra
+
+5. feladat
+Első lépésként ábrázoltam a a két lehetséges háromszöget egy koordinátarendszerben, ahol a kettő háromszög pontjainak koordinátái:
+Első: A(0;4), B(3;0), C(1;6)
+Második: A(0;4), B(3;0), C(2;6)
+
+Pitagorasz tétellel kiszámoltam az oldalak hosszát:
+Első háromszög:                 Második háromszög:
+c = 5                           c = 5
+b = sqrt(3)                     b = 2sqrt(2)
+a = sqrt(40)                    a = sqrt(37)
+
+Ezután behelyettesítettem az értékeket a Héron-képletbe: T = sqrt(s(s-a)(s-b)(s-c))
+ahol s = (a + b + c) / 2, azaz a kerület fele
+
+Így kapott eredményeim:
+Első háromszög területe: sqrt(39) / 2 egység
+Második háromszög területe: 7 egység
+Tehát c = 2 esetben igaz a feltétel
+
+6. feladat
+Egy szabályos hatszögből kiindulva, nem lehetséges hogy 6 ember lő egy emberre, mert akkor egyenlő távolságra állnának. Ötszögben már lehetséges,
+mert ott több lehetőség van a szögek változtatására mint a hatszögnél, és nem lenne egyenlő szárú háromszög az alakzatban.
+
+7. feladat
+Mivel, ha 21 golyót kell kivennünk, hogy biztosan legyen piros az azt jelenti hogy a többi golyó mind piros amit nem húztunk ki,
+szóval 9 + az 1 amit kihúztunk = 10 piros golyó van.
+
+8. feladat
+Mivel négyzetekből áll a nagy négyzet, az átló minden kicsi négyzetet pont úgy szeli kettét mint ha az átlója lenne. Mivel tudjuk, hogy
+az átló nem érinthet több négyzetet mint az értéke (85), ezért a négyzetnek az oldala 85 négyzetből áll. Tehát a területe 85cm * 85cm = 7225cm^2
+
+9. feladat
+Mivel minden résztvevő egyszer köszönt valakihez és egyvalaki (k - 1) embernek köszön (mert magának nem köszön), így k(k - 1) = 506, ebből k^2 - k - 506 = 0-t kapjuk,
+aminek csak a pozitív megoldása lesz jó a feladat megoldásához: 23-an voltak a találkozón.
+Ahogy már kimondtuk (k - 1) emberhez köszönt egyvalaki azaz 22 résztvevőtől kell elköszönni mindenkinek.
+Osszuk el a 308-at 22-vel, így megkapjuk hogy 14 magyar volt a találkozón, ha 23-ból kivonjuk a kapott eredményt megvan a megoldásunk.
+9 angol volt a találkozón.
+
+
+
+
