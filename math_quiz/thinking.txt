@@ -4,9 +4,8 @@ Az első mondatból felírhattam ezt az egyenletet: v = (300 + x) / 20, A másod
 Ezek alapján felírtam hogy (300 + x) / 20 = x / 5, ebből kijött hogy a vonat 100 méter hosszú.
 
 2. feladat:
-A 8cm oldalú kocka egyik lapjára ráragasztottam a 6cm-eset. A másik kettő 2cm-es kockát pedig külön-külön oldalra helyeztem, a keletkezett testre.
-Így mind a kettő 2cm-es és a 6cm-es kocka is levágódik a 8cm-es kockáról.
-Tehát a legnagyobb elérhető térfogat: 512cm^3 (8cm * 8cm * 8cm)
+A 8cm oldalú kocka egyik lapjára ráragasztottam a 6cm-eset, majd a 6cm-es fölé pakoltam a két 2cm-es kockát. Így kivágható belőle egy olyan téglatest,
+amelynek oldalai 10cm, 4cm, 8cm. Tehát a térfogata 320cm^2
 
 3.feladat:
 Két távolságra bontottam a menetidejüket: x, 20-x
