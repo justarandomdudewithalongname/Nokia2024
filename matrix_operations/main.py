@@ -38,5 +38,7 @@ for operation in operations:
 for i, result in enumerate(results):
     if result is not None:
         print(operations[i])
-        print(result)
+        for row in result:
+            print(' '.join(map(str, row)))
+        print()
 
