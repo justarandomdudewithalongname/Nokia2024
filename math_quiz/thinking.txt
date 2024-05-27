@@ -47,8 +47,8 @@ Második háromszög területe: 7 egység
 Tehát c = 2 esetben igaz a feltétel
 
 6. feladat
-Egy szabályos hatszögből kiindulva, nem lehetséges hogy 6 ember lő egy emberre, mert akkor egyenlő távolságra állnának. Ötszögben már lehetséges,
-mert ott több lehetőség van a szögek változtatására mint a hatszögnél, és nem lenne egyenlő szárú háromszög az alakzatban.
+Egy szabályos hatszögből kiindulva, nem lehetséges hogy 6 ember lő egy emberre, mert ha a belső szög 60° vagy kisebb akkor már nem a középső emberre lőnek.
+Tehát úgy képzeltem el mint egy ötszöget aminek szögei 72° körül vannak de mindig nagyobbak mint 60°. Így maximum öt ember lőhet egy hatodik emberre, aki éppenséggel egy ötszög közepén áll.
 
 7. feladat
 Mivel, ha 21 golyót kell kivennünk, hogy biztosan legyen piros az azt jelenti hogy a többi golyó mind piros amit nem húztunk ki,
